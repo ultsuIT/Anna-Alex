@@ -1,0 +1,141 @@
+body {
+    font-family: 'Handlee', sans-serif !important;
+}
+
+h1 {
+    font-family: 'Handlee', sans-serif;
+    font-size: 65px;
+    margin: 0;
+}
+
+header {
+    background-color: #16416c;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+h2 {
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: #0f2f4f;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    background-color: #1763af;
+}
+
+section.aloitussivu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+section.aloitussivu h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+section.aloitussivu p {
+    font-size: 18px;
+}
+
+section.tuloohjeet {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 300px;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+section.tuloohjeet img {
+    width: 1000px;
+    height: auto;
+    margin-top: 20px;
+}
+
+section.valokuvat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section.valokuvat h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+section.valokuvat p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+section.chat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+section.chat h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+section.chat p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+section.chat h2, section.chat p {
+    text-align: center;
+}
+
+#tlkio {
+    margin-top: 20px;
+}
+
