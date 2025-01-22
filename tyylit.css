@@ -1,164 +1,353 @@
 /* Muokkaa tähän oikeat värit ja fontit */
+@media screen and (min-width: 768px) {
+    body {
+        font-family: 'Figtree', sans-serif;
+        color:#011f3b;
+        background-color: #fdfeff;
+    }
 
-body {
-    font-family: 'Figtree', sans-serif;
+    h1 {
+        font-family: 'Figtree', sans-serif;
+        font-size: 3em;
+        margin: 0;
+    }
+
+    header {
+        background-image: url("starsky.png");
+        color: #fdfeff;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 250px;
+    }
+
+    header img {
+        height: 250px;
+    }
+
+    h2 {
+        font-family: 'Figtree', sans-serif;
+        color:#fdfeff;
+        font-size: 2.5em;
+        margin-top: 10px;
+    }
+
+    h3{
+        font-family: 'Figtree', sans-serif;
+        color:#011f3b;
+        font-size: 2.0em;
+        margin-top: 10px;
+    }
+
+    nav {
+        background-color: #0f2f4f;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    nav ul li a {
+        display: block;
+        color: #fdfeff;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 1.3em;
+        text-transform: uppercase;
+    }
+
+    nav ul li a:hover {
+        background-color: #1763af;
+    }
+
+    section.aloitussivu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    section.aloitussivu h2 {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+    section.aloitussivu p {
+        font-size: 18px;
+    }
+
+    section.tuloohjeet {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 300px;
+        text-align: center;
+        padding: 30px;
+        margin-top: 30px;
+    }
+
+    section.tuloohjeet img {
+        width: 1000px;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    section.valokuvat {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    section.valokuvat h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    section.valokuvat p {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    section.chat {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 300px;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    section.chat h2 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    section.chat p {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    section.chat h2, section.chat p {
+        text-align: center;
+    }
+
+    #tlkio {
+        margin-top: 20px;
+    }
+
+    .kuusiboordi {
+        background-image: url("forest.png");
+        height: 200px;
+        display: flex;
+    }
+
+    footer {
+        background-color: #0A2F23;
+        color: #fdfeff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        margin: none;
+    }
 }
 
-h1 {
-    font-family: 'Figtree', sans-serif;
-    font-size: 3em;
-    margin: 0;
-}
+@media screen and (max-width: 768px) {
+    body {
+        font-family: 'Figtree', sans-serif;
+        color:#011f3b;
+        background-color: #fdfeff;
+    }
 
-header {
-    background-image: url("starsky.png");
-    color: #fdfeff;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 250px;
-}
+    h1 {
+        font-family: 'Figtree', sans-serif;
+        color: #fdfeff;
+        font-size: 3em;
+        margin: 0;
+    }
 
-header img {
-    height: 250px;
-}
+    header {
+        background-image: url("starsky.png");
+        color: #fdfeff;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+    }
 
-h2 {
-    font-family: 'Figtree', sans-serif;
-    font-size: 2.5em;
-    margin-top: 10px;
-}
+    header img {
+        max-height: 400px;
+    }
 
-nav {
-    background-color: #0f2f4f;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-}
+    h2 {
+        font-family: 'Figtree', sans-serif;
+        color:#fdfeff;
+        font-size: 2.5em;
+        margin-top: 10px;
+    }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
+    h3{
+        font-family: 'Figtree', sans-serif;
+        color:#011f3b;
+        font-size: 2.0em;
+        margin-top: 10px;
+    }
 
-nav ul li {
-    margin: 0 10px;
-}
+    nav {
+        background-color: #0f2f4f;
+        overflow: hidden;
+        display: block;
+        float: none;
+        justify-content: center;
+    }
 
-nav ul li a {
-    display: block;
-    color: #fdfeff;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 1.3em;
-    text-transform: uppercase;
-}
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
 
-nav ul li a:hover {
-    background-color: #1763af;
-}
+    nav ul li {
+        margin: 0 10px;
+        text-decoration: none;
+    }
 
-section.aloitussivu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-    text-align: center;
-    padding: 40px 20px;
-}
+    nav ul li a {
+        display: block;
+        color: #fdfeff;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 1.3em;
+        text-transform: uppercase;
+    }
 
-section.aloitussivu h2 {
-    font-size: 24px;
-    margin-top: 10px;
-}
+    nav ul li a:hover {
+        background-color: #1763af;
+    }
 
-section.aloitussivu p {
-    font-size: 18px;
-}
+    section.aloitussivu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        text-align: center;
+        padding: 40px 20px;
+    }
 
-section.tuloohjeet {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    height: 300px;
-    text-align: center;
-    padding: 30px;
-    margin-top: 30px;
-}
+    section.aloitussivu h2 {
+        font-size: 24px;
+        margin-top: 10px;
+    }
 
-section.tuloohjeet img {
-    width: 1000px;
-    height: auto;
-    margin-top: 20px;
-}
+    section.aloitussivu p {
+        font-size: 18px;
+    }
 
-section.valokuvat {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 40px 20px;
-    text-align: center;
-}
+    section.tuloohjeet {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 300px;
+        text-align: center;
+        padding: 30px;
+        margin-top: 30px;
+    }
 
-section.valokuvat h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
-}
+    section.tuloohjeet img {
+        width: 1000px;
+        height: auto;
+        margin-top: 20px;
+    }
 
-section.valokuvat p {
-    font-size: 18px;
-    margin-bottom: 30px;
-}
+    section.valokuvat {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 20px;
+        text-align: center;
+    }
 
-section.chat {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 300px;
-    text-align: center;
-    padding: 40px 20px;
-}
+    section.valokuvat h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
 
-section.chat h2 {
-    font-size: 24px;
-    margin-top: 20px;
-}
+    section.valokuvat p {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
 
-section.chat p {
-    font-size: 18px;
-    margin-bottom: 30px;
-}
+    section.chat {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 300px;
+        text-align: center;
+        padding: 40px 20px;
+    }
 
-section.chat h2, section.chat p {
-    text-align: center;
-}
+    section.chat h2 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
 
-#tlkio {
-    margin-top: 20px;
-}
+    section.chat p {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
 
-.kuusiboordi {
-    background-image: url("forest.png");
-    height: 200px;
-    display: flex;
-}
+    section.chat h2, section.chat p {
+        text-align: center;
+    }
 
-footer {
-    background-color: #0A2F23;
-    color: #fdfeff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    margin: none;
-}
+    #tlkio {
+        margin-top: 20px;
+    }
+
+    .kuusiboordi {
+        background-image: url("forest.png");
+        height: 200px;
+        display: flex;
+    }
+
+    footer {
+        background-color: #0A2F23;
+        color: #fdfeff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        margin: none;
+    }
+  }
