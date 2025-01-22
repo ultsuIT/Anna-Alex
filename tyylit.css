@@ -11,8 +11,8 @@ h1 {
 }
 
 header {
-    background-color: #16416c;
-    color: #fff;
+    background-image: url("starsky.png");
+    color: #fdfeff;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -21,9 +21,13 @@ header {
     height: 250px;
 }
 
+header img {
+    height: 250px;
+}
+
 h2 {
     font-family: 'Figtree', sans-serif;
-    font-size: 32px;
+    font-size: 2.5em;
     margin-top: 10px;
 }
 
@@ -47,7 +51,7 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    color: #fff;
+    color: #fdfeff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -142,3 +146,19 @@ section.chat h2, section.chat p {
     margin-top: 20px;
 }
 
+.kuusiboordi {
+    background-image: url("forest.png");
+    height: 200px;
+    display: flex;
+}
+
+footer {
+    background-color: #0A2F23;
+    color: #fdfeff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin: none;
+}
