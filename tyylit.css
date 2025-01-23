@@ -1,4 +1,4 @@
-/* Muokkaa tähän oikeat värit ja fontit */
+/* PÖYTÄKONE VERSIO Muokkaa tähän oikeat värit ja fontit */
 @media screen and (min-width: 768px) {
     body {
         font-family: 'Figtree', sans-serif;
@@ -100,6 +100,8 @@
         height: 300px;
         text-align: center;
         padding: 40px 20px;
+
+          
     }
 
     section.tuloohjeet {
@@ -173,6 +175,16 @@
         display: flex;
     }
 
+    .kukkatausta {
+        background-image: url("kukat_ms365.png");
+        display: flex;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh; /* Makes the body 100% of the viewport height */
+        margin: 0; 
+    }
+
     footer {
         background-color: #0A2F23;
         color: #fdfeff;
@@ -188,7 +200,7 @@
         margin: 0;
     }
 }
-
+/* MOBIILI VERSIO Muokkaa tähän oikeat värit ja fontit */
 @media screen and (max-width: 768px) {
     body {
         font-family: 'Figtree', sans-serif;
@@ -290,6 +302,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        height: 800px;
         text-align: center;
         padding: 40px 20px;  
     }
