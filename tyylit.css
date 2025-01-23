@@ -311,15 +311,41 @@
         font-size: 18px;
     }
 
-    section.ohjelma {
+    .section.ohjelma {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 800px;
+        flex-direction: column; /* Keeps elements stacked vertically */
+        justify-content: center; /* Centers content inside the .ohjelma section */
+        align-items: center; /* Aligns text to the center horizontally */
         text-align: center;
-        padding: 40px 20px;  
+        height: auto; /* Keeps height dynamic */
+        padding: 20px; /* Space around the text */
     }
+    
+    .kukkatausta {
+        background-image: url("kukat_ms365.png");
+        display: flex; 
+        justify-content: center;
+        align-items: flex-start; 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh; /* Makes the container take up the entire viewport height */
+        margin: 0;
+        padding-top: 5vh; /* Adjust this to move the text slightly down from the top */
+    }
+
+    section.ohjelma h3 {
+        color:#011f3b;
+        font-size: 32px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    section.ohjelma p {
+        font-size: 18px;
+        text-align: center;
+    }
+
 
     section.tuloohjeet {
         display: flex;
