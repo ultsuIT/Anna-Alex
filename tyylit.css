@@ -114,6 +114,18 @@
         padding-top: 5vh; /* Adjust this to move the text slightly down from the top */
     }
 
+    section.ohjelma h3 {
+        color:#011f3b;
+        font-size: 32px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    section.ohjelma p {
+        font-size: 18px;
+        text-align: center;
+    }
+
     section.tuloohjeet {
         display: flex;
         flex-direction: column;
@@ -217,7 +229,7 @@
     }
 
     header {
-        background-image: url("starrynight.png");
+        background-image: url("starsky.png");
         color: #fdfeff;
         padding: 20px;
         display: flex;
