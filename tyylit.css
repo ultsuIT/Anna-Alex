@@ -92,16 +92,26 @@
         font-size: 18px;
     }
 
-    section.ohjelma {
+    .section.ohjelma {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 300px;
+        flex-direction: column; /* Keeps elements stacked vertically */
+        justify-content: center; /* Centers content inside the .ohjelma section */
+        align-items: center; /* Aligns text to the center horizontally */
         text-align: center;
-        padding: 40px 20px;
-
-          
+        height: auto; /* Keeps height dynamic */
+        padding: 20px; /* Space around the text */
+    }
+    .kukkatausta {
+        background-image: url("kukat_ms365.png");
+        display: flex; /* Makes this a flex container */
+        justify-content: center; /* Centers the child section horizontally */
+        align-items: flex-start; /* Aligns the child section to the top initially */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh; /* Makes the container take up the entire viewport height */
+        margin: 0;
+        padding-top: 5vh; /* Adjust this to move the text slightly down from the top */
     }
 
     section.tuloohjeet {
@@ -175,15 +185,6 @@
         display: flex;
     }
 
-    .kukkatausta {
-        background-image: url("kukat_ms365.png");
-        display: flex;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 100vh; /* Makes the body 100% of the viewport height */
-        margin: 0; 
-    }
 
     footer {
         background-color: #0A2F23;
