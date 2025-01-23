@@ -169,8 +169,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 100px;
-        margin: none;
+        height: 60px;
+        width: 100%;
+        flex-shrink: 0;
+        flex-direction: column;
+        min-height: 60vh;
+        margin: 0;
     }
 }
 
