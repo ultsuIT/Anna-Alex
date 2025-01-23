@@ -92,6 +92,16 @@
         font-size: 18px;
     }
 
+    section.ohjelma {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
     section.tuloohjeet {
         display: flex;
         flex-direction: column;
@@ -272,6 +282,15 @@
 
     section.aloitussivu p {
         font-size: 18px;
+    }
+
+    section.ohjelma {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 40px 20px;  
     }
 
     section.tuloohjeet {
