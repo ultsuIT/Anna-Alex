@@ -1,15 +1,6 @@
-/*Kaikki fontit on muutettu em-muotoon. Jos vaihdat kokoa, niin laita em-muodossa, please :) 
-Poistelin myös joitain päällekäisiä asetuksia (fontin määritys riittää kerran, 
-samoin h/p tageille) -U-M */
-/*Älkää välittäkö etusivun ulkoasusta, mulla on hommat vielä kesken*/
-
-/* PÖYTÄKONE VERSIO Muokkaa tähän oikeat värit ja fontit */
-@media screen and (min-width: 768px) {
-    /*.dropbtn {
-        background-color: #0f2f4f;
-        color: #011f3b;
-        padding: 10px;
-        font-size: 1em;
+@media screen and (max-width: 768px) {
+    /*dropdown-valikko */
+    .dropbtn {
         border: none;
         cursor: pointer;
     }
@@ -17,10 +8,16 @@ samoin h/p tageille) -U-M */
     .dropbtn:hover, .dropbtn:focus {
         background-color: #1763af;
     }
+
+    .dropdown .dropbtn img {
+        text-align: center;
+    }
     
     .dropdown {
+        display: flex;
         position: relative;
         display: inline-block;
+        align-items: center;
     }
     
     .dropdown-content {
@@ -33,15 +30,19 @@ samoin h/p tageille) -U-M */
     }
     
     .dropdown-content a {
-        color: #011f3b;
-        padding: 12px 16px;
+        color: #fdfeff;
+        padding: 10%;
         text-decoration: none;
         display: block;
+        text-decoration: none;
+        font-size: 1.3em;
+        text-transform: uppercase;
     }
     
     .dropdown a:hover {background-color: #1763af;}
     
-    .show {display: block;}*/
+    .show {display: block;}
+}
     body {
         font-family: 'Figtree', sans-serif;
         color:#011f3b;
@@ -49,17 +50,18 @@ samoin h/p tageille) -U-M */
     }
 
     h1 {
-        font-size: 3em;
+        color: #fdfeff;
+        font-family: 'Imperial Script', serif;
+        font-size: 3.5em;
         margin: 0;
+        text-align: center;
     }
 
     header {
         background-image: url("starrynight.png");
-        color: #fdfeff;
         padding: 20px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         height: auto;
     }
@@ -68,6 +70,7 @@ samoin h/p tageille) -U-M */
         color:#fdfeff;
         font-size: 2.5em;
         margin-top: 10px;
+        text-align: center;
     }
 
     h3{
@@ -80,7 +83,7 @@ samoin h/p tageille) -U-M */
         text-align: center;
     }
     
-    nav {
+    /*nav {
         background-color: #0f2f4f;
         overflow: hidden;
         display: flex;
@@ -111,7 +114,7 @@ samoin h/p tageille) -U-M */
 
     nav ul li a:hover {
         background-color: #1763af;
-    }
+    }*/
 
     .aloitussivu {        
         display: flex;
@@ -231,7 +234,7 @@ samoin h/p tageille) -U-M */
         flex-shrink: 0;
         flex-direction: column;
     }
-}
+
 
 /* MOBIILI VERSIO Muokkaa tähän oikeat värit ja fontit */
 @media screen and (max-width: 768px) {
@@ -271,8 +274,8 @@ samoin h/p tageille) -U-M */
     
     .dropdown a:hover {background-color: #1763af;}
     
-    .show {display: block;}
-    */
+    .show {display: block;}*/
+    
     body {
         font-family: 'Figtree', sans-serif;
         color:#011f3b;
@@ -315,7 +318,7 @@ samoin h/p tageille) -U-M */
         font-size: 1.0em;
     }
 
-    nav {
+    /*nav {
         background-color: #0f2f4f;
         overflow: hidden;
         display: block;
@@ -347,7 +350,7 @@ samoin h/p tageille) -U-M */
 
     nav ul li a:hover {
         background-color: #1763af;
-    }
+    }*/
 
     .aloitussivu {
         flex-direction: column;
@@ -470,4 +473,4 @@ samoin h/p tageille) -U-M */
         flex-shrink: 0;
         flex-direction: column;
     }
-}
+  }
