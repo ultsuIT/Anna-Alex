@@ -20,11 +20,11 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 250px;
+        height: 30vh;
     }
 
     header img {
-        height: 250px;
+        height: 30vh;
     }
 
     h2 {
@@ -39,6 +39,10 @@
         color:#011f3b;
         font-size: 2.0em;
         margin-top: 10px;
+    }
+
+    p {
+        font-size: 1.0em;
     }
 
     nav {
@@ -73,23 +77,13 @@
         background-color: #1763af;
     }
 
-    section.aloitussivu {
+    section.aloitussivu {        
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 300px;
-        text-align: center;
         padding: 40px 20px;
-    }
-
-    section.aloitussivu h2 {
-        font-size: 24px;
-        margin-top: 10px;
-    }
-
-    section.aloitussivu p {
-        font-size: 18px;
+        text-align: center;
     }
 
     .section.ohjelma {
@@ -115,14 +109,11 @@
     }
 
     section.ohjelma h3 {
-        color:#011f3b;
-        font-size: 32px;
         margin-bottom: 15px;
         text-align: center;
     }
 
     section.ohjelma p {
-        font-size: 18px;
         text-align: center;
     }
 
@@ -131,14 +122,14 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        height: 300px;
+        height: 100vh;
         text-align: center;
         padding: 30px;
         margin-top: 30px;
     }
 
     section.tuloohjeet img {
-        width: 1000px;
+        width: 25vw;
         height: auto;
         margin-top: 20px;
     }
@@ -152,14 +143,11 @@
         text-align: center;
     }
 
-    section.valokuvat h2 {
-        color:#011f3b;
-        font-size: 32px;
+    section.valokuvat h3 {
         margin-bottom: 20px;
     }
 
     section.valokuvat p {
-        font-size: 18px;
         margin-bottom: 30px;
     }
 
@@ -173,9 +161,7 @@
         padding: 40px 20px;
     }
 
-    section.chat h2 {
-        color:#011f3b;
-        font-size: 32px;
+    section.chat h3 {
         margin-top: 20px;
     }
 
@@ -184,7 +170,7 @@
         margin-bottom: 30px;
     }
 
-    section.chat h2, section.chat p {
+    section.chat h3, section.chat p {
         text-align: center;
     }
 
@@ -194,7 +180,7 @@
 
     .kuusiboordi {
         background-image: url("forest.png");
-        height: 200px;
+        height: 25vh;
         display: flex;
     }
 
@@ -206,11 +192,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 60px;
-        width: 100%;
+        min-height: 15vh;
+        width: 100vw;
         flex-shrink: 0;
         flex-direction: column;
-        min-height: 60vh;
         margin: 0;
     }
 }
@@ -230,18 +215,18 @@
     }
 
     header {
-        background-image: url("starsky.png");
+        background-image: url("starrynight.png");
         color: #fdfeff;
         padding: 20px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 400px;
+        height: 30vh;
     }
 
     header img {
-        max-height: 400px;
+        max-height: 30vh;
     }
 
     h2 {
@@ -293,22 +278,16 @@
     }
 
     section.aloitussivu {
-        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 300px;
+        max-height: 50vh;
         text-align: center;
         padding: 40px 20px;
     }
 
-    section.aloitussivu h2 {
-        font-size: 24px;
+    section.aloitussivu h3 {
         margin-top: 10px;
-    }
-
-    section.aloitussivu p {
-        font-size: 18px;
     }
 
     .section.ohjelma {
@@ -335,8 +314,6 @@
     }
 
     section.ohjelma h3 {
-        color:#011f3b;
-        font-size: 32px;
         margin-bottom: 15px;
         text-align: center;
     }
@@ -352,14 +329,14 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        height: 300px;
+        height: 75vh;
         text-align: center;
         padding: 30px;
         margin-top: 30px;
     }
 
     section.tuloohjeet img {
-        width: 1000px;
+        width: 25vw;
         height: auto;
         margin-top: 20px;
     }
@@ -373,14 +350,11 @@
         text-align: center;
     }
 
-    section.valokuvat h2 {
-        color:#011f3b;
-        font-size: 32px;
+    section.valokuvat h3 {
         margin-bottom: 20px;
     }
 
     section.valokuvat p {
-        font-size: 18px;
         margin-bottom: 30px;
     }
 
@@ -389,19 +363,16 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        min-height: 300px;
+        min-height: 75vh;
         text-align: center;
         padding: 40px 20px;
     }
 
-    section.chat h2 {
-        color:#011f3b;
-        font-size: 32px;
+    section.chat h3 {
         margin-top: 20px;
     }
 
     section.chat p {
-        font-size: 18px;
         margin-bottom: 30px;
     }
 
@@ -415,7 +386,7 @@
 
     .kuusiboordi {
         background-image: url("forest.png");
-        height: 200px;
+        height: 25vh;
         display: flex;
     }
 
@@ -426,7 +397,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 100px;
+        height: 15vh;
         margin: none;
     }
   }
