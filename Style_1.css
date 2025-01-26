@@ -226,6 +226,7 @@ footer {
     }
 
     .dropbtn {
+        display: none;
         cursor: default;
         margin-bottom: 1rem;
     }
