@@ -164,6 +164,8 @@ footer {
     position: relative;
     display: inline-block;
     text-align: center;
+    top: 10px; /* Distance from the top of the screen */
+    left: 10px; /* Distance from the left of the screen */
 }
 
 .dropbtn {
@@ -172,6 +174,8 @@ footer {
     font-size: 16px;
     border: none;
     cursor: pointer;
+    width: 40px; /* Adjust the size here */
+    height: 40px; /* Adjust the size here */
 }
 
 .dropdown-content {
@@ -182,6 +186,7 @@ footer {
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
     flex-direction: column;
+    
 }
 
 .dropdown-content.show {
