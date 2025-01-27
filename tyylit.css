@@ -204,6 +204,17 @@ footer {
         display: block;
         width: 100%;
     }
+
+    .custom-button {
+        background-color: #1E3229; /* Asetetaan painikkeen taustaväri */
+        color: #ffffff; /* Asetetaan painikkeen tekstin väri */
+        border: none; /* Poistetaan reunus */
+        padding: 10px 20px; /* Lisätään mukava padding */
+        border-radius: 5px; /* Pyöristetään kulmia hieman */
+        text-decoration: none; /* Poistetaan alleviivaus */
+        display: inline-block; /* Varmistetaan, että marginaalit toimivat oikein */
+    }
+    
 }
 
 @media (min-width: 769px) {
