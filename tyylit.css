@@ -316,7 +316,7 @@ samoin h/p tageille) -U-M */
     }
 
     nav {
-        background-color: #0f2f4f;
+        background-color: #1E3229;
         overflow: hidden;
         display: block;
         float: none;
@@ -346,7 +346,7 @@ samoin h/p tageille) -U-M */
     }
 
     nav ul li a:hover {
-        background-color: #1763af;
+        background-color: #698369;
     }
 
     .aloitussivu {
