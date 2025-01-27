@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-image: url("darkgreen.png");
+    background-color: #1E3229;
     padding: 1.25rem;
     display: flex;
     justify-content: center;

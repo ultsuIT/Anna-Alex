@@ -54,7 +54,7 @@ samoin h/p tageille) -U-M */
     }
 
     header {
-        background-image: url("darkgreen.png");
+        background-color: #1E3229;
         color: #fdfeff;
         padding: 20px;
         display: flex;
@@ -286,7 +286,7 @@ samoin h/p tageille) -U-M */
     }
 
     header {
-        background-image: url("darkgreen.png");
+        background-color: #1E3229;
         color: #fdfeff;
         padding: 20px;
         display: flex;
