@@ -138,16 +138,6 @@ p {
     text-align: center;
 }
 
-#tlkio {
-    margin-top: 1.25rem;
-}
-
-.kuusiboordi {
-    background-image: url("forest.png");
-    height: 25vh;
-    display: flex;
-}
-
 footer {
     background-color: #0A2F23;
     color: #fdfeff;
