@@ -174,6 +174,11 @@ samoin h/p tageille) -U-M */
         text-align: center;
         padding: 30px;
         margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .tuloohjeet iframe {
+        margin-top: 50px;
     }
 
     .tuloohjeet img {
@@ -243,6 +248,17 @@ samoin h/p tageille) -U-M */
         flex-shrink: 0;
         flex-direction: column;
     }
+
+    .custom-button {
+        background-color: #1E3229; /* Asetetaan painikkeen taustaväri */
+        color: #ffffff; /* Asetetaan painikkeen tekstin väri */
+        border: none; /* Poistetaan reunus */
+        padding: 10px 20px; /* Lisätään mukava padding */
+        border-radius: 5px; /* Pyöristetään kulmia hieman */
+        text-decoration: none; /* Poistetaan alleviivaus */
+        display: inline-block; /* Varmistetaan, että marginaalit toimivat oikein */
+    }
+    
 }
 
 /* MOBIILI VERSIO Muokkaa tähän oikeat värit ja fontit */
