@@ -12,18 +12,38 @@
 </head>
 
 <body>
+    <script>
+        function myFunction() {
+            if (window.innerWidth <=768) {
+            document.getElementById("myDropdown").classList.toggle("show");
+            }
+        }
+        
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                for (var i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+
     <header>
         <h1>Anna & Alex</h1>
         <h2>7.6.2025</h2>
-        
-        <nav>
-            <ul>
-                <li><a href="index.html">Etusivu</a></li>
-                <li><a href="haaohjelma.html">Hääohjelma</a></li>
-                <li><a href="tuloohjeet.html">Saapuminen</a></li>
-                <li><a href="valokuvat.html">Valokuvat</a></li>
-                <li><a href="chat.html">Chat</a></li>
-            </ul>
+        <nav class="dropdown">
+            <img onclick="myFunction()" class="dropbtn" src="navikuvake.png" alt="navigointikuvake">
+                <section id="myDropdown" class="dropdown-content">
+                    <a href="index.html">Etusivu</a>
+                    <a href="haaohjelma.html">Hääohjelma</a>
+                    <a href="tuloohjeet.html">Saapuminen</a>
+                    <a href="valokuvat.html">Valokuvat</a>
+                    <a href="chat.html">Chat</a>
+                </section>
         </nav>
     </header>
 

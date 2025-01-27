@@ -1,9 +1,4 @@
-body {
-    font-family: 'Figtree', sans-serif;
-    color:#011f3b;
-    background-color: #fdfeff;
-}
-
+/*Header*/
 header {
     background-color: #1E3229;
     padding: 1.25rem;
@@ -13,51 +8,39 @@ header {
     align-items: center;
     height: auto;
 }
-
 h1 {
     color: #fdfeff;
-    font-family: 'Imperial Script', serif;
-    font-size: 3.5rem;
-    padding: 1rem;
+    font-family: 'Imperial Script', serif;/*tähän Lotta vaihtaa ylimmän otsikon fontin */
+    font-size: 6rem;
+    margin: 1rem;
+    text-align: center;
+}
+h2 {
+    color:#fdfeff;
+    font-size: 3rem;
     margin: 1rem;
     text-align: center;
 }
 
-h2 {
-    color:#fdfeff;
-    font-size: 2.5rem;
-    margin-top: 0.625rem;
-    text-align: center;
+/*Body*/
+body {
+    font-family: 'Figtree', sans-serif;
+    height: auto;
 }
-
 h3 {
-    font-size: 2rem;
+    color:#02110b;
+    font-size: 2.5rem;
+    padding: 2rem;
     text-align: center;
 }
-
 p {
-    font-size: 1rem;
+    color:#02110b;
+    backdrop-filter: blur(1rem);
+    font-size: 1.25rem;
     text-align: center;
+    max-width: 50vw;    
 }
 
-.aloitussivu {        
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 2.5rem 1.25rem;
-    text-align: center;
-    max-height: 50vh;
-}
-
-.ohjelma {
-    display: flex;
-    flex-direction: column; /* Keeps elements stacked vertically */
-    justify-content: center; /* Centers content inside the .ohjelma section */
-    align-items: center; /* Aligns text to the center horizontally */
-    text-align: center;
-    height: auto; /* Keeps height dynamic */
-    padding: 1.25rem; /* Space around the text */
-}
 .kukkatausta {
     background-image: url("kukat_ms365.png");
     display: flex; /* Makes this a flex container */
@@ -68,85 +51,103 @@ p {
     background-repeat: no-repeat;
     height: 100vh; /* Makes the container take up the entire viewport height */
     margin: 0;
-    padding-top: 5vh; /* Adjust this to move the text slightly down from the top */
+}
+.vihreaTausta {
+    background-image: url("vihreaTausta.png");
+    display: flex; /* Makes this a flex container */
+    justify-content: center; /* Centers the child section horizontally */
+    align-items: flex-start; /* Aligns the child section to the top initially */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto; /* Makes the container take up the entire viewport height */
+    margin: 0;
+}
+.custom-button {
+    background-color: #1E3229; /* Asetetaan painikkeen taustaväri */
+    color: #ffffff; /* Asetetaan painikkeen tekstin väri */
+    border: none; /* Poistetaan reunus */
+    padding: 10px 20px; /* Lisätään mukava padding */
+    border-radius: 5px; /* Pyöristetään kulmia hieman */
+    text-decoration: none; /* Poistetaan alleviivaus */
+    display: inline-block; /* Varmistetaan, että marginaalit toimivat oikein */
+    margin: 1rem;
 }
 
-.ohjelma h3 {
-    margin-bottom: 0.9rem;
+/* Etusivu */
+.aloitussivu {        
+    display: flex;
+    flex-direction: column; /* Keeps elements stacked vertically */
+    justify-content: center; /* Centers content inside the .ohjelma section */
+    align-items: center; /* Aligns text to the center horizontally */
     text-align: center;
+    height: auto; /* Keeps height dynamic */
+    padding: 1.25rem; /* Space around the text */
 }
 
-.ohjelma p {
+/* Ohjelma */
+.ohjelma {
+    display: flex;
+    flex-direction: column; /* Keeps elements stacked vertically */
+    justify-content: center; /* Centers content inside the .ohjelma section */
+    align-items: center; /* Aligns text to the center horizontally */
     text-align: center;
+    height: auto; /* Keeps height dynamic */
+    padding: 1.25rem; /* Space around the text */
 }
 
+/* Saapuminen */
 .tuloohjeet {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    height: auto;
+    flex-direction: column; /* Keeps elements stacked vertically */
+    justify-content: center; /* Centers content inside the .ohjelma section */
+    align-items: center; /* Aligns text to the center horizontally */
     text-align: center;
-    padding: 1.8rem;
-    margin-top: 1.8rem;
+    height: auto; /* Keeps height dynamic */
+    padding: 1.25rem; /* Space around the text */
 }
 
-.tuloohjeet img {
-    width: 25vw;
-    height: auto;
-    margin-top: 1.25rem;
+iframe {
+    max-width: 50vw;
+    max-height: 50vw;
+    margin: 1rem;
 }
 
+/* Valokuvat */
 .valokuvat {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2.5rem 1.25rem;
+    flex-direction: column; /* Keeps elements stacked vertically */
+    justify-content: center; /* Centers content inside the .ohjelma section */
+    align-items: center; /* Aligns text to the center horizontally */
     text-align: center;
-    height: auto;
+    height: auto; /* Keeps height dynamic */
+    padding: 1.25rem; /* Space around the text */
 }
 
-.valokuvat h3 {
-    margin-bottom: 1.25rem;
-}
-
-.valokuvat p {
-    margin-bottom: 1.8rem;
-}
-
+/* Chat */
 .chat {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: auto;
+    flex-direction: column; /* Keeps elements stacked vertically */
+    justify-content: center; /* Centers content inside the .ohjelma section */
+    align-items: center; /* Aligns text to the center horizontally */
     text-align: center;
-    padding: 2.5rem 1.25rem;
-}
-
-.chat h3 {
-    margin-top: 1.25rem;
-}
-
-.chat p {
-    margin-bottom: 1.8rem;
-}
-
-.chat h3, .chat p {
-    text-align: center;
+    height: auto; /* Keeps height dynamic */
+    padding: 1.25rem; /* Space around the text */
 }
 
 footer {
     background-color: #0A2F23;
-    color: #fdfeff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 15vh;
-    flex-shrink: 0;
-    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 2rem;
+}
+
+footer p {
+    color: #fdfeff;
 }
 
 /* General styles for dropdown */
@@ -159,7 +160,7 @@ footer {
 }
 
 .dropbtn {
-    background-color: #011f3b;/*toinen väri, joka alkup. navissa: #0f2f4f*/
+    background-color: #1E3229; 
     color: #fdfeff;
     font-size: 1rem;
     border: none;
@@ -171,9 +172,8 @@ footer {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #0f2f4f;
+    background-color: #1E3229;
     min-width: 10rem;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);/*halutaanko tämä? se ei varsinaisesti näy?-U-M*/
     z-index: 1;
     flex-direction: column;
 }
@@ -192,9 +192,10 @@ footer {
 }
 
 .dropdown-content a:hover {
-    background-color: #1763af;
+    background-color: #475F4F;
 }
 
+/* Mobiili */
 @media (max-width: 768px) {
     .dropdown-content {
         width: 100%;
@@ -217,6 +218,7 @@ footer {
     
 }
 
+/* Desktop */
 @media (min-width: 769px) {
     .dropdown {
         display: flex;
@@ -244,7 +246,7 @@ footer {
     .dropdown-content a {
         display: block;
         color: #fdfeff;
-        background-color: #011f3b;
+        background-color: #1E3229;
         text-align: center;
         text-decoration: none;
         font-size: 1.3rem;
@@ -253,7 +255,7 @@ footer {
     }
 
     .dropdown-content a:hover {
-        background-color: #1763af;
+        background-color: #475F4F;
     }
 
     .dropdown-content.show {
