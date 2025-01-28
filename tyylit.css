@@ -1,3 +1,11 @@
+/*Laitoin tähän alkuun jokaiselle osiot, johon voidaan kirjottaa, mitä kukakin on tehnyt. Väri on vaihdettu footeriin- U-M 
+/*
+Lotta: saapuminen-, valokuvat- ja vieraskirjasivun ulkoasu ja asettelut, sivuilla olevien painikkeiden asettelut
+Sini: hääohjelma-sivun ulkoasu ja asettelut, mobiilinavigaatio
+Ulla-Maija: etusivun ulkoasu ja asettelu, navigaation runko, responsiivisuus, sivun rungon perusasettelut ja CSS:n 
+stilisointi
+*/
+
 /*Header*/
 header {
     background-color: #1E3229;
@@ -10,7 +18,7 @@ header {
 }
 h1 {
     color: #fdfeff;
-    font-family: 'Imperial Script', serif;/*tähän Lotta vaihtaa ylimmän otsikon fontin */
+    font-family: 'Imperial Script', serif; /*tähän Lotta vaihtaa ylimmän otsikon fontin */
     font-size: 6rem;
     margin: 1rem;
     text-align: center;
@@ -39,7 +47,6 @@ p {
     font-size: 1.25rem;
     text-align: center;
     max-width: 70vw;  /* muokkasin leipätekstin leveyttä - Sini*/
-    
 }
 
 .kukkatausta {
@@ -52,7 +59,6 @@ p {
     background-repeat: no-repeat;
     height: 100vh; /* Makes the container take up the entire viewport height */
     margin: 0;
-    
 }
 .vihreaTausta {
     background-image: url("vihreaTausta.png");
@@ -124,11 +130,10 @@ iframe {
     text-align: center;
     height: auto; /* Keeps height dynamic */
     padding: 1.25rem; /* Space around the text */
-
 }
 
-/* Chat */
-.chat {
+/* Vieraskirja */
+.vieraskirja {
     display: flex;
     flex-direction: column; /* Keeps elements stacked vertically */
     justify-content: center; /* Centers content inside the .ohjelma section */
@@ -139,7 +144,7 @@ iframe {
 }
 
 footer {
-    background-color: #0A2F23;
+    background-color: #1E3229;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -169,12 +174,12 @@ footer p {
     font-size: 1rem;
     border: none;
     cursor: pointer;
-    width: 2.5rem; 
-    height: 2.5rem;
+    width: 4rem; /* Suurensin hampurilaisen kokoa - U-M */
+    height: 4rem;
     display: flex; 
     justify-content: center; 
     align-items: center;
-    border-radius: 5px; /* Optional: makes button rounded */
+    border-radius: 0.3125rem; /* Optional: makes button rounded */
 }
 
 /* Default dropdown (for larger screens) */
@@ -185,7 +190,7 @@ footer p {
     min-width: 10rem;
     z-index: 1;
     flex-direction: column;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     text-align: center;
 }
 
@@ -224,8 +229,8 @@ footer p {
         background-color: #1E3229; /* Asetetaan painikkeen taustaväri */
         color: #ffffff; /* Asetetaan painikkeen tekstin väri */
         border: none; /* Poistetaan reunus */
-        padding: 10px 20px; /* Lisätään mukava padding */
-        border-radius: 5px; /* Pyöristetään kulmia hieman */
+        padding: 0.625rem 1.25rem; /* Lisätään mukava padding */
+        border-radius: 0.3125rem; /* Pyöristetään kulmia hieman */
         text-decoration: none; /* Poistetaan alleviivaus */
         display: inline-block; /* Varmistetaan, että marginaalit toimivat oikein */
     
