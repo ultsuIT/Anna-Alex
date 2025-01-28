@@ -86,7 +86,7 @@ p {
 .aloitussivu {        
     display: flex;
     flex-direction: column; /* Keeps elements stacked vertically */
-    justify-content: center; /* Centers content inside the .ohjelma section */
+    justify-content: center; /* Centers content inside the section */
     align-items: center; /* Aligns text to the center horizontally */
     text-align: center;
     height: auto; /* Keeps height dynamic */
@@ -108,7 +108,7 @@ p {
 .tuloohjeet {
     display: flex;
     flex-direction: column; /* Keeps elements stacked vertically */
-    justify-content: center; /* Centers content inside the .ohjelma section */
+    justify-content: center; /* Centers content inside the section */
     align-items: center; /* Aligns text to the center horizontally */
     text-align: center;
     height: auto; /* Keeps height dynamic */
@@ -125,7 +125,7 @@ iframe {
 .valokuvat {
     display: flex;
     flex-direction: column; /* Keeps elements stacked vertically */
-    justify-content: center; /* Centers content inside the .ohjelma section */
+    justify-content: center; /* Centers content inside the section */
     align-items: center; /* Aligns text to the center horizontally */
     text-align: center;
     height: auto; /* Keeps height dynamic */
@@ -136,7 +136,7 @@ iframe {
 .vieraskirja {
     display: flex;
     flex-direction: column; /* Keeps elements stacked vertically */
-    justify-content: center; /* Centers content inside the .ohjelma section */
+    justify-content: center; /* Centers content inside the section */
     align-items: center; /* Aligns text to the center horizontally */
     text-align: center;
     height: auto; /* Keeps height dynamic */
@@ -217,7 +217,7 @@ footer p {
     .dropdown-content {
         left: 50%;
         transform: translateX(-50%);
-        top: 3rem; /* Adjust spacing */
+        top: 4rem; /* Adjust spacing *//*Säädin isommaksi, ettei mene hampurilaisen päälle, kun muutin sen kokoa - U-M */
     }
 
     .dropbtn {
