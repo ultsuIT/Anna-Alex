@@ -177,13 +177,10 @@ footer p {
     border-radius: 5px; /* Optional: makes button rounded */
 }
 
-/* Dropdown Menu */
+/* Default dropdown (for larger screens) */
 .dropdown-content {
     display: none;
     position: absolute;
-    top: 3rem;
-    left: 50%;
-    transform: translateX(-50%);
     background-color: #1E3229;
     min-width: 10rem;
     z-index: 1;
@@ -213,7 +210,9 @@ footer p {
 /* Mobiili */
 @media (max-width: 768px) {
     .dropdown-content {
-        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 3rem; /* Adjust spacing */
     }
 
     .dropbtn {
