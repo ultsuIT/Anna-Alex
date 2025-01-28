@@ -38,19 +38,21 @@ p {
     backdrop-filter: blur(1rem);
     font-size: 1.25rem;
     text-align: center;
-    max-width: 50vw;    
+    max-width: 70vw;  /* muokkasin leipätekstin leveyttä - Sini*/
+    
 }
 
 .kukkatausta {
     background-image: url("kukat_ms365.png");
     display: flex; /* Makes this a flex container */
-    justify-content: center; /* Centers the child section horizontally */
+    justify-content: center;  /*Centers the child section horizontally - tää toimii älä koske */
     align-items: flex-start; /* Aligns the child section to the top initially */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh; /* Makes the container take up the entire viewport height */
     margin: 0;
+    
 }
 .vihreaTausta {
     background-image: url("vihreaTausta.png");
@@ -122,6 +124,7 @@ iframe {
     text-align: center;
     height: auto; /* Keeps height dynamic */
     padding: 1.25rem; /* Space around the text */
+
 }
 
 /* Chat */
@@ -155,8 +158,8 @@ footer p {
     position: relative;
     display: inline-block;
     text-align: center;
-    top: 0.625rem; /* Distance from the top of the screen */
-    left: 0.625rem; /* Distance from the left of the screen */
+    top: 0.625rem; 
+    left: 0.625rem;
 }
 
 .dropbtn {
@@ -165,8 +168,8 @@ footer p {
     font-size: 1rem;
     border: none;
     cursor: pointer;
-    width: 2.5rem; /* Adjust the size here */
-    height: 2.5rem; /* Adjust the size here */
+    width: 2.5rem; 
+    height: 2.5rem; 
 }
 
 .dropdown-content {
@@ -214,8 +217,13 @@ footer p {
         border-radius: 5px; /* Pyöristetään kulmia hieman */
         text-decoration: none; /* Poistetaan alleviivaus */
         display: inline-block; /* Varmistetaan, että marginaalit toimivat oikein */
-    }
     
+    }
+
+    .kukkatausta {
+        background-size: cover; /* Fiksataan taustakuvaa niin, että kuva mukautuu taustaan */
+        height: auto;
+    }
 }
 
 /* Desktop */
@@ -261,4 +269,5 @@ footer p {
     .dropdown-content.show {
         display: flex;
     }
+
 }
