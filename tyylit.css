@@ -233,7 +233,8 @@ footer p {
 
     .kukkatausta {
         background-size: cover; /* Fiksataan taustakuvaa niin, että kuva mukautuu taustaan */
-        height: auto;
+        height: 110vh;
+        /* height: auto; Sinin testaus*/
     }
 }
 
