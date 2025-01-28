@@ -69,8 +69,8 @@ p {
     background-color: #1E3229; /* Asetetaan painikkeen taustaväri */
     color: #ffffff; /* Asetetaan painikkeen tekstin väri */
     border: none; /* Poistetaan reunus */
-    padding: 10px 20px; /* Lisätään mukava padding */
-    border-radius: 5px; /* Pyöristetään kulmia hieman */
+    padding: 0.625rem 1.25rem; /* Lisätään mukava padding */
+    border-radius: 0.3125rem; /* Pyöristetään kulmia hieman */
     text-decoration: none; /* Poistetaan alleviivaus */
     display: inline-block; /* Varmistetaan, että marginaalit toimivat oikein */
     margin: 1rem;
