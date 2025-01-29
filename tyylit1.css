@@ -301,3 +301,38 @@ footer p {
     }
 
 }
+@media (max-width: 320px) {
+    p {
+        font-size: 1rem; /* Reduce font size to improve readability */
+        max-width: 90vw; /* Allow text to use more width */
+        padding: 0.5rem; /* Reduce padding for better spacing */
+    }
+
+    .vihreaTausta, .kukkatausta {
+        background-size: cover;
+        height: auto; /* Adjust height dynamically */
+        padding: 1rem; /* Ensure proper spacing */
+    }
+
+    .custom-button {
+        padding: 0.5rem 1rem; /* Reduce padding for smaller screens */
+        font-size: 0.9rem; /* Adjust font size */
+    }
+
+    .dropdown-content {
+        min-width: 8rem; /* Reduce dropdown size */
+    }
+
+    h1 {
+        font-size: 4rem; /* Reduce heading size */
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+        padding: 1rem;
+    }
+}
