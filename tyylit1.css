@@ -302,37 +302,44 @@ footer p {
 
 }
 @media (max-width: 360px) {
+    body {
+        font-size: 14px;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
     p {
-        font-size: 1rem; /* Reduce font size to improve readability */
-        max-width: 90vw; /* Allow text to use more width */
-        padding: 0.5rem; /* Reduce padding for better spacing */
+        font-size: 1rem;
+        max-width: 95vw;
+        padding: 0.5rem;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+        padding: 0.5rem;
     }
 
     .vihreaTausta, .kukkatausta {
         background-size: cover;
-        height: auto; /* Adjust height dynamically */
-        padding: 1rem; /* Ensure proper spacing */
+        height: auto;
+        padding: 1rem;
     }
 
     .custom-button {
-        padding: 0.5rem 1rem; /* Reduce padding for smaller screens */
-        font-size: 0.9rem; /* Adjust font size */
+        padding: 0.5rem 0.8rem;
+        font-size: 0.85rem;
     }
 
     .dropdown-content {
-        min-width: 8rem; /* Reduce dropdown size */
-    }
-
-    h1 {
-        font-size: 4rem; /* Reduce heading size */
-    }
-
-    h2 {
-        font-size: 2rem;
-    }
-
-    h3 {
-        font-size: 2rem;
-        padding: 1rem;
+        min-width: 8rem;
     }
 }
