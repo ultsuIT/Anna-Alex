@@ -18,13 +18,14 @@ header {
 }
 h1 {
     color: #fdfeff;
-    font-family: 'Imperial Script', serif; /*tähän Lotta vaihtaa ylimmän otsikon fontin */
+    font-family: 'Parisienne', cursive; /*tähän Lotta vaihtaa ylimmän otsikon fontin */
     font-size: 6rem;
     margin: 1rem;
     text-align: center;
 }
 h2 {
     color:#fdfeff;
+    font-family: 'Figtree', sans-serif;
     font-size: 3rem;
     margin: 1rem;
     text-align: center;
@@ -80,6 +81,12 @@ p {
     text-decoration: none; /* Poistetaan alleviivaus */
     display: inline-block; /* Varmistetaan, että marginaalit toimivat oikein */
     margin: 1rem;
+}
+
+.custom-button:hover {
+    background-color: #475F4F;
+    color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* Etusivu */
