@@ -301,7 +301,7 @@ footer p {
     }
 
 }
-@media (max-width: 360px) {
+@media (max-width: 375px) {
     body {
         font-size: 14px;
         padding: 0;
