@@ -1,7 +1,6 @@
-/*Laitoin tähän alkuun jokaiselle osiot, johon voidaan kirjottaa, mitä kukakin on tehnyt. Väri on vaihdettu footeriin- U-M 
 /*
 Lotta: saapuminen-, valokuvat- ja vieraskirjasivun ulkoasu ja asettelut, sivuilla olevien painikkeiden asettelut, headerin fontti
-Sini: hääohjelma-sivun ulkoasu ja asettelut, mobiilinavigaatio
+Sini: taustakuvat, hääohjelma-sivun ulkoasu ja asettelut, mobiilinavigaatio, sivujen mobiiliversion fiksaukset, verkkosivujen logo
 Ulla-Maija: etusivun ulkoasu ja asettelu, navigaation runko, responsiivisuus, sivun rungon perusasettelut ja CSS:n 
 stilisointi
 */
@@ -18,7 +17,7 @@ header {
 }
 h1 {
     color: #fdfeff;
-    font-family: 'Parisienne', cursive; /*tähän Lotta vaihtaa ylimmän otsikon fontin */
+    font-family: 'Parisienne', cursive;
     font-size: 6rem;
     margin: 1rem;
     text-align: center;
@@ -51,8 +50,8 @@ p {
 }
 
 .kukkatausta {
-    background-image: url("kukat_ms365.png");
-    display: flex; /* Makes this a flex container */
+    background-image: url("kukat_ms365.png"); /* default taustakuva*/
+    display: flex; /* flex container */
     justify-content: center;  /*Centers the child section horizontally - tää toimii älä koske */
     align-items: flex-start; /* Aligns the child section to the top initially */
     background-size: cover;
@@ -62,8 +61,8 @@ p {
     margin: 0;
 }
 .vihreaTausta {
-    background-image: url("vihreaTausta.png");
-    display: flex; /* Makes this a flex container */
+    background-image: url("vihreaTausta.png"); /* tulo-ohjeet sivun tausta */
+    display: flex; /* flex container */
     justify-content: center; /* Centers the child section horizontally */
     align-items: flex-start; /* Aligns the child section to the top initially */
     background-size: cover;
@@ -244,9 +243,9 @@ footer p {
     }
 
     .kukkatausta {
-        background-size: cover; /* Fiksataan taustakuvaa niin, että kuva mukautuu taustaan */
+        background-size: cover; /* Fiksataan taustakuvaa niin, että kuva mukautuu taustaan - Sini*/
         height: 110vh;
-        /* height: auto; Sinin testaus*/
+       
     }
 
     iframe {
