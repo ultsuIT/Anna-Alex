@@ -99,6 +99,17 @@ p {
     padding: 1.25rem; /* Space around the text */
 }
 
+/* Ilmoittautuminen */
+.ilmoittautuminen {        
+    display: flex;
+    flex-direction: column; /* Keeps elements stacked vertically */
+    justify-content: center; /* Centers content inside the section */
+    align-items: center; /* Aligns text to the center horizontally */
+    text-align: center;
+    height: auto; /* Keeps height dynamic */
+    padding: 1.25rem; /* Space around the text */
+}
+
 /* Ohjelma */
 .ohjelma {
     display: flex;
